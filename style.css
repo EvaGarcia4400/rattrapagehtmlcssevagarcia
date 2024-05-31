@@ -1,0 +1,863 @@
+/* Style global */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+  
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+  
+/*Je suis + Langues*/
+  .etudiant {
+  background-color: #ffd453;
+  }
+  .menu.top.je.suis .etudiant {
+    padding: 10px;
+  }
+
+  .menu.top.je.suis .liste li:not(:first-child):hover span {
+  text-decoration: underline;
+  cursor: pointer;
+  }
+
+  .langues .langue-item-FR {
+  background-color: #ffd453;
+  }
+
+  .langues .langue-item:not(:first-child) span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  }
+
+  nav#premièreligne {
+  justify-content: space-between;
+  background-color: white;
+  color: #333539;
+  }
+
+  nav#premièreligne ul.liste {
+  list-style: none;
+  padding: 10px;
+  }
+
+  .menu.top.je.suis .liste li {
+  padding: 0 5px;
+  }
+
+  .langues ul span {
+  display: inline-flex;
+  padding: 5px;
+  }
+
+  .langues ul span img {
+  width: 20px;
+  }
+
+  #premièreligne {
+  display: grid;
+  grid-template-columns: auto auto;
+  }
+
+  .menu.top.je.suis,
+  .langues {
+  display: flex;
+  align-items: center;
+  }
+
+  .menu.top.je.suis p,
+  .menu.top.je.suis ul,
+  .langues ul {
+  display: flex;
+  margin: 0;
+  }
+
+  .langues ul li {
+  display: flex;
+  }
+
+  nav#premièreligne .menu,
+  nav#premièreligne .langues {
+  margin: 0 40px;
+  }
+/*Je suis + Langues*/
+
+/*BANDEAU GRIS*/
+  nav.bandeau.gris {
+  background-color: #333539;
+  border-radius: 5px;
+  margin: 0px 40px;
+  padding: 0 20px;
+  }
+
+  .logo.kedge.bandeau.gris img {
+  max-height: 45px;
+  padding: 10px;
+  padding-left: 0px;
+  }
+
+  .menu-droite ul.menu li {
+  display: flex;
+  flex-direction: column;
+  }
+
+  .menu-droite ul.menu li span {
+  justify-content: center;
+  }
+
+  .menu-droite ul.menu li a {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  }
+
+  .menu-droite ul.menu li a:hover {
+  text-decoration: underline;
+  }
+
+  nav.bandeau.gris button {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  padding: 0px;
+  }
+
+  .menu-droite {
+  padding-left: 280px;
+  }
+
+  nav.bandeau.gris > div, nav.bandeau.gris > ul {
+  display: flex;
+  align-items: center;
+  }
+
+  nav.bandeau.gris ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  }
+
+  nav.bandeau.gris ul li {
+  margin-right: 20px;
+  }
+
+  nav.bandeau.gris ul li:last-child {
+  margin-right: 0;
+  }
+
+  nav.bandeau.gris ul li span {
+  display: flex;
+  }
+
+  .menu-droite ul.menu li.search span svg {
+  fill: #FFD453;
+  background-color: #484A4D;
+  border-radius: 50%;
+  padding: 7px;
+  width: 32px;
+  height: auto;
+  box-sizing: border-box;
+  overflow: visible;
+  }
+
+  .menu-droite ul.menu li.search span svg:hover {
+  fill: #323539;
+  background-color: #FFD453;
+  }
+
+  .menu-droite ul.menu li:not(.search) span svg {
+  fill: black;
+  background-color: #FFD453;
+  border-radius: 50%;
+  padding: 7px;
+  width: 32px;
+  height: auto;
+  box-sizing: border-box;
+  overflow: visible;
+  }
+
+
+  .menu-droite ul.menu li:not(.search) span svg:hover {
+  fill: #FFD453;
+  background-color: black;
+  }
+
+  .menu-droite .menu li span:hover + a,
+  .menu-droite .menu li a:hover {
+  text-decoration: underline;
+  }
+/*BANDEAU GRIS*/
+
+
+/*Kedge BS une école de commerce...inclusive*/
+  .hero .hero-title {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  }
+/*Kedge BS une école de commerce...inclusive*/
+
+
+/*Texte Kedge + photo student + grey bloc*/
+  .hero .cta {
+  background-color: #333;
+  color: white;
+  padding-left: 40px;
+  padding-right: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  height: 270px;
+  }
+
+  .hero .cta .btn {
+  display: inline-block;
+  background-color: white;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid transparent;
+  }
+
+  .hero .cta .btn:hover {
+  background-color: #333;
+  color: white;
+  border-color: white;
+  }
+
+  .hero .hero-content {
+  display: flex;
+  }
+
+  .hero .hero-img {
+  width: 700px;
+  height: auto;
+  margin-right: -10px;
+  margin-left: 20px;
+  position:relative;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;  
+  } 
+/*Texte Kedge + photo student + grey bloc*/
+
+/*Je suis étudiant + Je suis un professionnel ou une entreprise*/
+  .container section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  }
+
+  .card {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 135px;
+  padding-bottom: 20px;
+  }
+
+  .card-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+  margin-bottom: 40px;
+  }
+
+  .card .icon-svg {
+  width: 40px;
+  height: fit-content;
+  fill: white;
+  }
+
+  .card:hover {
+  transform: scale(0.95);
+  cursor: pointer;
+  }
+
+  .icon-number {
+  width: 50px; 
+  height: 50px; 
+  }
+
+  section:first-child {
+  margin-bottom: 70px;
+  margin-top: -30px;
+  }
+
+  section:last-child {
+  margin-top: -30px;
+  }
+/*Je suis étudiant + Je suis un professionnel ou une entreprise*/
+
+
+/*Ligne Accrédiations*/
+  .Accréditations {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  }
+/*Ligne Accrédiations*/
+
+
+/*En ce moment à Kedge*/
+  .container-moment {
+  display: flex;
+  padding: 20px;
+  background-color: #333539;
+  color: white;
+  }
+
+  .left-panel {
+  flex: 1;
+  padding: 20px;
+  }
+
+  .left-panel h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  }
+
+  .left-panel p {
+  line-height: 24px;
+  font-size: 18;
+  }
+
+  .right-panel {
+  flex: 2;
+  display: flex;
+  gap: 20px;
+  }
+
+  .alaune, .maisaussi {
+  flex: 1;
+  border-radius: 8px;
+  padding: 20px;
+  }
+
+  .alaune {
+  background-color: #f8c94c;
+  color: #333539;
+  }
+
+  .maisaussi {
+  background-color: #495057;
+  color: white;
+  }
+
+  .alaune h2, .maisaussi h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  }
+
+  .event-card {
+  background-color: #fff;
+  color: #000;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  }
+
+  .event-card p {
+  margin: 0;
+  }
+
+  .event-card .date {
+  font-weight: light;
+  }
+
+  .event-card .event-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+
+  .event-card .event-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .register-btn {
+  background-color: #CF0D61;
+  color: #fff;
+  border-color: #f0f0f000;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: flex-end;
+  border: 2px solid transparent;
+  margin: -50px 0px 0px 0px;
+  }
+
+  .register-btn:hover {
+  background-color: white;
+  color: #CF0D61;
+  border-color: #CF0D61;
+  border: 2px solid #CF0D61;
+  }
+
+  .moment-footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #323539;
+  }
+
+  .all-events-btn {
+  background-color: #FFFFFF;
+  color: #323539;
+  border-color: rgba(255, 255, 255, 0);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom:20px;
+  margin-left: 435px;
+  margin-right: auto;
+  }
+
+  .all-events-btn:hover {
+  border-color: white;
+  color: white;
+  background-color: #323539;
+  }
+  .event-card {
+  display: flex;
+  flex-direction: column;
+  }
+
+  .register-btn {
+  align-self: flex-end;
+  }
+  .event-card .tag {
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  }
+
+  .container-moment .event-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .container-moment .event-card .event-details-register-btn {
+  display: flex;
+  align-self: flex-end;
+  }
+/*En ce moment à Kedge*/
+
+
+/*Blocs jaunes*/
+.features {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  max-width: 1100px; 
+  margin-left:auto; 
+  margin-right:auto; 
+}
+
+  .feature-card {
+  border-radius: 10px;
+  width: 200px;
+  text-align: left;
+  margin-top: 150px; 
+  margin-bottom: 0px;
+  }
+
+  .feature-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  }
+
+  .feature-card p {
+  font-size: 14px;
+  color: #555;
+  }
+
+  .feature-card:hover p, img{
+  text-decoration: underline;
+  cursor: pointer;
+  }
+/*Blocs jaunes*/
+
+
+/*Marseille*/
+  .image-container {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 150px;
+
+  }
+
+  .image-container img {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  }
+
+  .overlay {
+  position: absolute;
+  bottom: 30px; 
+  right: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  }
+
+  .overlay button {
+  pointer-events: auto;
+  background-color: #CF0B61;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  }
+
+  .overlay button:hover {
+  background-color: white;
+  color: #CF0B61;
+  border: 2px solid #CF0B61;
+  }
+/*Marseille*/
+
+
+/*Actus & Insights*/
+  .news-card img, .insight-card img{
+  width:300px;
+  height: auto;
+  }
+  
+  .news-header button {
+  background-color: #323539;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+  .insights-button{
+  background-color: #323539;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+  .actualites-button, .insights-button {
+  position: relative;
+  background-color: #323539;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  }
+
+  .actualites-button .arrow-actu,
+  .insights-button .arrow-actu {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  }
+
+  .actualites-button:hover .arrow-actu path,
+  .insights-button:hover .arrow-actu path {
+  fill: #CF0D61;
+  background-color: white;  
+  border: 2px solid #323539;
+  color: #000;
+  }
+
+  .news-header button:hover {
+  background-color: white;  
+  border: 2px solid #323539;
+  color: #000;
+  }
+
+  .insights-button:hover {
+  background-color: white;  
+  border: 2px solid #323539;
+  color: #000;
+  }
+
+  .news-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  margin-left: 50px;
+  }
+
+  .insights-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  margin-left: 50px;
+  }
+
+  .news-cards {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 10px;
+  justify-content: center;
+  }
+
+  .insights-cards {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 10px;
+  justify-content: center;
+  }
+  
+  .news-card p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 20px;
+  }
+
+  .news-card p:hover{
+  text-decoration: underline;
+  }
+
+  .insight-card p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 20px;
+  }
+
+  .insight-card p:hover{
+  text-decoration: underline;
+  }
+/*Actus & Insights*/
+
+
+/*à propos*/
+  .program-section a {
+  color: #CF0D61;
+  text-decoration: none;
+  }
+
+  .program-section a:hover {
+  text-decoration: underline;
+  }
+
+  .container {
+  padding: 0 20px;
+  }
+
+  .program-section {
+  margin: 0 auto;
+  padding: 0 20px;
+  }
+
+  .a-propos,
+  .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .program-section {
+  max-width: 1200px;
+  padding: 0px;
+  border: 1px transparent #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  }
+/*à propos*/
+
+
+/*chiffres clés*/
+  .stat-item h2{
+  color: #CF0D61;
+  }
+
+  .stats-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 20px; 
+  margin-right: 100px;
+  }
+
+  .stat-item {
+  text-align: center; 
+  }
+
+  .stat-item h2 {
+  font-size: 46px;
+  letter-spacing: 4px
+  }
+
+  .container .key-figures h2 {
+  text-align: left;
+  margin-bottom: -5px; 
+  }
+
+  .container .stats-section h2 {
+  text-align: center;
+  }
+
+  .stats-section p {
+  font-size: 1em;
+  color: #333;
+  }
+/*chiffres clés*/
+
+
+/*footer haut & bas*/
+/*footer haut*/
+  .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333539;
+  }
+
+  .container-footer-content-accreditations,
+  .container-footer-content-social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+  padding-right: 0px;
+  margin-right: 0px;
+  }
+
+
+  .social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 60px;
+  padding-left: 0px;
+  }
+
+  .social-media .icons {
+  display: flex;
+  gap: 10px;
+  }
+
+  .social-media .icons svg {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 10px; 
+  box-sizing: content-box;
+  overflow: visible;
+  }
+
+  .footer {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 40px 0;
+  font-size: 16px;
+  font-weight: bold;
+  }
+
+  .accreditations {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  }
+  .accreditations img {
+  height: 40px;
+  }
+/*footer haut*/
+  .class-name:after {
+  content: " ";
+  display: block;
+  border-bottom: 0.5px solid #9E9E9E;
+  }
+/*footer bas*/
+  .dark-bg-container {
+  display: flex;  
+  margin: auto;
+
+  }
+
+  .dark-bg {
+  background-color: #2D2D2D;  
+  color: #fff;  
+  padding: 20px;  
+  flex: 1;  
+  margin-right:  
+  } 
+
+  .dark-bg:last-child {
+  margin-right: 0;  
+  }
+
+  .button-choix-formation{
+  background-color:#2D2D2D ;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold
+  }
+
+  .dark-bg p{
+  font-weight: lighter;
+  font-size: 14px;
+  }
+
+  .dark-bg p:hover{
+  text-decoration: underline;
+  }
+
+  .button-choix-formation:hover{
+  color: #CF0D61;
+  }
+/*footer bas*/
+/*footer haut & bas*/
+
+
+/*autres*/
+body {
+  margin: 0;
+  overflow-x: hidden;  
+}
+.hero .container {
+  text-align: center;
+}
+
+.hero .hero-title {
+  display: block;
+  text-align: center;
+}
+
+.hero .hero-content {
+  text-align: left;
+}
+/*autres*/
